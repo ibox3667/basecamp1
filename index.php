@@ -23,7 +23,7 @@
         if ($rows == 1 ) { 
             $_SESSION['username'] = $username; 
             // Redirect to user dashboard page 
-            header("Location: dashboard/dashboard.php");   
+            header("Location: userpage.php");   
         }
         else { 
             echo "<div class='form'> 
